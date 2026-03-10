@@ -1,9 +1,14 @@
 ---
-title: "Devblog 1 — Character System"
+title: "Devblog 1 — Project Start"
 layout: single
 date: 2026-03-10
+author: cocsicat
 ---
 
-Сегодня начал делать систему персонажа.
+Started rebuilding Isle.
 
-Работает line trace взаимодействие.
+Systems planned:
+
+- Character system
+- Interaction
+- Inventory
