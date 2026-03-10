@@ -1,9 +1,17 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+body {
+    background: url("../images/noise.png");
+    background-repeat: repeat;
+  }
+
+  .page__footer {
+    background: #070707;
+    border-top: 1px solid #cc412b;
+  }
